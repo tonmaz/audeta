@@ -1,7 +1,7 @@
 {
-  "name": "with-typescript-eslint-jest",
-  "author": "@erikdstock",
-  "license": "MIT",
+  "name": "audeta",
+  "author": "@tonde",
+  "license": "private",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -49,12 +49,15 @@
   "dependencies": {
     "@emotion/react": "11.1.1",
     "@emotion/styled": "11.0.0",
+    "@mdx-js/loader": "1.6.21",
+    "@next/mdx": "10.0.3",
     "@reduxjs/toolkit": "^1.5.0",
     "@zeit/next-source-maps": "^0.0.3",
     "bootstrap": "^5.0.0-beta1",
     "bootstrap-icons": "^1.1.0",
     "cross-env": "^6.0.3",
     "next": "latest",
+    "next-translate": "^1.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -67,6 +70,7 @@
   "devDependencies": {
     "@emotion/babel-plugin": "11.0.0",
     "@next/bundle-analyzer": "9.5.3",
+    "@next/mdx": "^10.0.3",
     "@svgr/cli": "5.4.0",
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.16",
