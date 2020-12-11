@@ -17,5 +17,4 @@
   "exclude": ["node_modules", ".next", "out"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
   "typeRoots": ["./src/mdx.d.ts"]
-
 }

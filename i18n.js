@@ -6,7 +6,6 @@ module.exports = {
     '/404': ['error'],
     '/': ['home'],
     '/dashboard': ['home'],
-    'rgx:^/more-examples': ['more-examples'],
   },
   interpolation: {
     prefix: '${',
@@ -14,4 +13,4 @@ module.exports = {
   },
   loadLocaleFrom: (locale, namespace) =>
     import(`./src/translations/${namespace}_${locale}`).then((m) => m.default),
-}
+};
