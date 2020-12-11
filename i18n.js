@@ -13,4 +13,4 @@ module.exports = {
   },
   loadLocaleFrom: (locale, namespace) =>
     import(`./src/translations/${namespace}_${locale}`).then((m) => m.default),
-};
+}
