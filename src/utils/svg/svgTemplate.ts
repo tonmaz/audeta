@@ -13,7 +13,7 @@ export function template(
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   { imports, componentName, props, jsx, exports }
 ) {
-  const typeScriptTpl = template.smart({ plugins: ['typescript'] })
+  const typeScriptTpl = template.smart({ plugins: ['typescript'] });
 
   return typeScriptTpl.ast`
 import React from 'react';
@@ -25,7 +25,7 @@ type; Props = {
 } & React.SVGProps<SVGSVGElement>;
 
 export default ${componentName};
-`
+`;
 }
 
-module.exports = template
+module.exports = template;

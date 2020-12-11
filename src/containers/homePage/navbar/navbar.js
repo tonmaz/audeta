@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const NavBar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,4 +54,4 @@ export const NavBar = () => (
       </div>
     </div>
   </nav>
-)
+);
