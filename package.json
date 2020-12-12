@@ -12,6 +12,7 @@
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint:fix": "eslint . --ext ts --ext tsx --ext js --fix",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test",
     "packages:upgrade": "yarn upgrade-interactive --latest",
@@ -88,6 +89,7 @@
     "lint-staged": "10.5.3",
     "next-unused": "0.0.3",
     "prettier": "2.2.1",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "dotenv": "8.2.0"
   }
 }
