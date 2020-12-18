@@ -1,11 +1,10 @@
 module.exports = {
-  locales: ['en', 'ca', 'es'],
+  locales: ['en', 'ca'],
   defaultLocale: 'en',
   pages: {
     '*': ['common'],
     '/404': ['error'],
     '/': ['home'],
-    '/dashboard': ['home'],
   },
   interpolation: {
     prefix: '${',
